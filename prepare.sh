@@ -16,10 +16,6 @@ echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
 chkconfig ip6tables off
 chkconfig iptables off
 sed -i 's/\=enforcing/\=disabled/g' /etc/selinux/config
-sed -i 's/DIR\ 01\;34/DIR\ 40\;33/g' /etc/DIR_COLORS
-echo "export HISTTIMEFORMAT=\"[%h/%d .. %H:%M:%S] - \"" >> /etc/bashrc
-echo "export GREP_OPTIONS='--color=auto'" >> /etc/bashrc
-echo "export GREP_COLOR='1;32'" >> /etc/bashrc
 echo "domain ${DOMAIN}" >> /etc/resolv.conf
 
 # update system, install needed programs
