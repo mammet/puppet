@@ -1,6 +1,4 @@
-If you have any improvements, be sure to fork/pull the changes up! I'm always looking for improvement. Don't bother 
-complaining about the scripts, or my methods. If you don't like them, contribute code and fixes, and put your money where your
-mouth is. Complaining doesn't fix a fucking thing.
+If you have any improvements, be sure to fork/pull the changes up! I'm always looking for improvement.
 
 puppet 3.3.1 installation
 ======
